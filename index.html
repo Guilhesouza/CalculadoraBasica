@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script type="text/javascript" src="calculadora.js"></script>
+    <link rel="stylesheet" href="calculadora.css">
+</head>
+
+<body>
+
+<table>
+    
+    <tr>
+
+        <td colspan="4"><input type="text" id="resultado"></td>
+
+    </tr>
+
+    <tr>
+
+    <td><input type="button" value="x²" onclick="raizexponencial()"></td>
+    <td><input type="button" value="π" onclick="pi()"></td>
+    <td><input type="button" value="C" onclick="apagarResultado()"></td>
+    <td><input type="button" value="/" onclick="calcular(this)"></td>
+
+    </tr>
+   
+
+<tr>
+
+    <td><input type="button" value="7" onclick="calcular(this)"></td>
+    <td><input type="button" value="8" onclick="calcular(this)"></td>
+    <td><input type="button" value="9" onclick="calcular(this)"></td>
+    <td><input type="button" value="*" onclick="calcular(this)"></td>
+    
+</tr>
+
+<tr>
+
+    <td><input type="button" value="4" onclick="calcular(this)"></td>
+    <td><input type="button" value="5" onclick="calcular(this)"></td>
+    <td><input type="button" value="6" onclick="calcular(this)"></td>
+    <td><input type="button" value="-" onclick="calcular(this)"></td>
+
+</tr>
+
+<tr>
+
+    <td><input type="button" value="1" onclick="calcular(this)"></td>
+    <td><input type="button" value="2" onclick="calcular(this)"></td>
+    <td><input type="button" value="3" onclick="calcular(this)"></td>
+    <td><input type="button" value="+" onclick="calcular(this)"></td>
+
+</tr>
+
+<tr>
+
+    <td><input type="button" value="+/-" onclick="invertePositivoOuNegativo()"></td>
+    <td><input type="button" value="0" onclick="calcular(this)"></td>
+    <td><input type="button" value="." onclick="calcular(this)"></td>
+    <td><input type="button" value="=" onclick="resultado()"></td>
+    
+
+</tr>
+
+
+</table>
+
+
+</body>
+</html>
